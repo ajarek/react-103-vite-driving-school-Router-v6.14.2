@@ -7,6 +7,7 @@ import {
   FaMailBulk,
   FaMapMarkerAlt,
 } from 'react-icons/fa'
+import {GiSteeringWheel} from 'react-icons/gi'
 import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { FormContact } from '../../components/FormContact/FormContact'
@@ -70,11 +71,9 @@ export const Contact = () => {
           to={'/'}
         >
           <div className='logo'>
-            <img
-              src='/logo.png'
-              alt='logo'
-            />
-            Biuro
+         
+            <GiSteeringWheel size={50}/>
+          
           </div>
         </Link>
         <div className='socials'>

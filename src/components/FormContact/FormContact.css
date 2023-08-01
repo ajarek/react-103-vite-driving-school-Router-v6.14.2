@@ -13,8 +13,9 @@
   padding: 1rem;
   font-size: 1.2rem;
   outline: none;
-  border: none;
-  background-color: var(--bisque);
+  border: 1px solid var(--grey-dark);
+  border-radius: 4px;
+  background-color: transparent;
   user-select: none;
   margin-bottom: 0.5rem;
 }
@@ -28,12 +29,12 @@ input[type='text']:focus {
   padding: 0;
   border: none;
   cursor: pointer;
-  transition: all 0.2s ease-in-out;
-  background-color: var(--braun);
+  transition: all 0.3s ease-in-out;
+  background-color: var(--blue-light);
   border-radius: 5px;
 }
 .form input[type='submit']:hover {
-  background-color: var(--green);
+  background-color: var(--blue);
 }
 .form p {
   color: var(--red);

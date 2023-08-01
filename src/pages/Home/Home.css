@@ -46,6 +46,10 @@
   text-decoration: none;
   background-color: var(--blue-light);
   color: var(--white);
+  transition: all 0.3s ease-in-out;
+ }
+ .home-info .home-info-link:hover{
+  background-color: var(--blue);
  }
 .home-img{
   height: 440px;
