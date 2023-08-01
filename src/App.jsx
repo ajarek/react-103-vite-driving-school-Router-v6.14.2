@@ -4,6 +4,7 @@ export const AppContext = createContext()
 
 import Main from './layouts/Main/Main'
 import Home from './pages/Home/Home'
+import Registration from './pages/Registration/Registration'
 import Contact from './pages/Contact/Contact'
 import Error from './pages/Error/Error'
 
@@ -20,6 +21,11 @@ const router = createBrowserRouter([
       },
       
       
+      {
+        path: '/zgloszenie',
+        element: <Registration />,
+        errorElement: <Error />,
+      },
       {
         path: '/kontakt',
         element: <Contact />,

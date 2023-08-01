@@ -27,6 +27,12 @@ const Nav = () => {
        
         <Link
           className='link link-text'
+          to={'/zgloszenie'}
+        >
+          Zgłoszenie
+        </Link>
+        <Link
+          className='link link-text'
           to={'/kontakt'}
         >
           Kontakt
