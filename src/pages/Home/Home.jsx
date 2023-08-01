@@ -10,7 +10,7 @@ const Home = () => {
           Naucz się jeździć w 3 miesiące. Już 15 lat zapewniamy wysokiej jakości lekcje
           jazdy , które kończy ponad 150 kursantów miesięcznie.
         </p>
-        <Link className='home-info-link'>Zapisz się →</Link>
+        <Link to={'/zgloszenie'} className='home-info-link'>Zapisz się →</Link>
       </div>
       <div className="home-img">
 
