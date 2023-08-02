@@ -1,13 +1,13 @@
 import React from 'react'
 import './Modal.css'
 
-const Modal = ({ email, onClose }) => {
+const Modal = ({onClose,title, text }) => {
   return (
     <div className='modal-overlay'>
       <div className='modal'>
-        <h2>Dziękujemy za e-mail</h2>
+        <h2>{title}</h2>
         <p>
-          Niezwłocznie prześlemy propozycje na adres <b>{email}</b> .
+          {text} 
         </p>
         <button
           className='close-button'

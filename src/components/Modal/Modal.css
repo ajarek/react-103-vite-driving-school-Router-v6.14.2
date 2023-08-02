@@ -12,6 +12,7 @@
 }
 
 .modal {
+  max-width: 600px;
   background-color: var(--blue-light);
   color: var(--white);
   padding: 20px;

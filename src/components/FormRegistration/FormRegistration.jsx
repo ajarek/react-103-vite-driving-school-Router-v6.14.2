@@ -32,6 +32,7 @@ export const FormRegistration = ({ onSubmit }) => {
           <input
             type='phone'
             placeholder='Wpisz swoje imie i nazwisko'
+            autoFocus={true}
             {...register('name')}
           />
           <p>{errors?.name?.message}</p>

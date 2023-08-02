@@ -26,6 +26,7 @@
 .form-registration label {
   color: var(--white);
   margin: 8px 0;
+  cursor: pointer;
 }
 .form-registration input {
   width: 100%;
@@ -77,6 +78,7 @@
   height: 30px;
   margin-top: 5px;
   margin-right: 16px;
+  cursor: pointer;
 }
 .form-registration .wrapper-row{
   display: flex;

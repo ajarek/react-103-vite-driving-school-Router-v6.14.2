@@ -31,8 +31,9 @@ export const Contact = () => {
     <div className='contact'>
       {showModal ? (
         <Modal
-          email={userEmail}
           onClose={handleCloseModal}
+          title={'Dziękujemy za e-mail'}
+          text={`Niezwłocznie prześlemy propozycje na adres ${userEmail}`}
         />
       ) : null}
       <div className='left-wrapper'>
