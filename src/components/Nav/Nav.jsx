@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import Hamburger from 'hamburger-react'
-import {GiSteeringWheel} from 'react-icons/gi'
+import { GiSteeringWheel } from 'react-icons/gi'
 import './Nav.css'
 
 const Nav = () => {
@@ -9,22 +9,23 @@ const Nav = () => {
 
   return (
     <nav className='nav'>
-      
-        <Link
-          className='link link-logo'
-          to={'/'}
-        >
-          <div className='img'>
-            <GiSteeringWheel size={30}/>
-          </div>
-          <h1>Szkoła Jazdy</h1>
-        </Link>
-      
+      <Link
+        className='link link-logo'
+        to={'/'}
+      >
+        <div className='img'>
+          <GiSteeringWheel size={30} />
+        </div>
+        <h1>Szkoła Jazdy</h1>
+      </Link>
+
       <ul className={!isOpen ? 'wrapper' : 'wrapper navbar-none'}>
-       
-        
-        
-       
+        <Link
+          className='link link-text'
+          to={'/kategoria'}
+        >
+          Kategorie i ceny
+        </Link>
         <Link
           className='link link-text'
           to={'/zgloszenie'}

@@ -1,0 +1,34 @@
+[
+  {
+    "id":"1",
+    "category":"B",
+    "src":"/images/category_car_b.webp",
+    "price":"3500",
+    "theory":"2",
+    "practice":"1,5"
+  },
+  {
+    "id":"2",
+    "category":"C",
+    "src":"/images/category_car_c.webp",
+    "price":"4700",
+    "theory":"3",
+    "practice":"2"
+  },
+  {
+    "id":"3",
+    "category":"CE",
+    "src":"/images/category_car_ce.webp",
+    "price":"5100",
+    "theory":"3",
+    "practice":"1,5"
+  },
+  {
+    "id":"4",
+    "category":"D",
+    "src":"/images/category_car_d.webp",
+    "price":"3500",
+    "theory":"3",
+    "practice":"2,5"
+  }
+]
