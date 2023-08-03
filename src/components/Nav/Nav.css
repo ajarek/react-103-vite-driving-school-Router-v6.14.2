@@ -77,6 +77,17 @@
     transition: all 0.3s ease-in-out;
   }
 
+  ul .link {
+    background-color: var(--blue-light);
+    color: var(--white);
+    padding: 8px 16px;
+  }
+
+  ul .link:hover {
+    background-color: var(--blue);
+    color: var(--white);
+  }
+
   .navbar-none {
     transform: translateY(100vh);
   }

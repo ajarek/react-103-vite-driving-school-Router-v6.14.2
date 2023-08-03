@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +10,7 @@
   --bisque: #ffe4c4;
   --black: #000000;
   --blue: #0062b2;
-  --blue-light:#2d8eff;
+  --blue-light: #2d8eff;
   --blueViolet: #8a2be2;
   --blueViolet-light: #dabdf7;
   --braun: #92400e;
@@ -27,19 +28,22 @@
   --tomato: #ff6347;
   --white: #fff;
 }
+
 body {
   font-family: 'Montserrat', sans-serif;
   background-color: var(--grey);
 }
+
 #root {
   max-width: 1200px;
-  
+
   min-height: 100vh;
   margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.App{
+
+.App {
   width: 100%;
 }

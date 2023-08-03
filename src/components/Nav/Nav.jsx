@@ -22,7 +22,7 @@ const Nav = () => {
       <ul className={!isOpen ? 'wrapper' : 'wrapper navbar-none'}>
         <Link
           className='link link-text'
-          to={'/kategoria'}
+          to={'/kategorie'}
         >
           Kategorie i ceny
         </Link>

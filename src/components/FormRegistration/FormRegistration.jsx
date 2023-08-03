@@ -71,7 +71,6 @@ export const FormRegistration = ({ onSubmit }) => {
         <div className='radio'>
           <input
             type='radio'
-           
             id={'B'}
             value={'B'}
             {...register('category')}
@@ -81,7 +80,6 @@ export const FormRegistration = ({ onSubmit }) => {
         <div className='radio'>
           <input
             type='radio'
-           
             id={'C'}
             value={'C'}
             {...register('category')}
@@ -91,7 +89,6 @@ export const FormRegistration = ({ onSubmit }) => {
         <div className='radio'>
           <input
             type='radio'
-           
             id={'CE'}
             value={'CE'}
             {...register('category')}
@@ -101,7 +98,6 @@ export const FormRegistration = ({ onSubmit }) => {
         <div className='radio'>
           <input
             type='radio'
-           
             id={'D'}
             value={'D'}
             {...register('category')}
@@ -110,38 +106,34 @@ export const FormRegistration = ({ onSubmit }) => {
         </div>
         <h3>Wybierz porę dnia:</h3>
         <p>{errors.time?.message}</p>
-        <div className="wrapper-row">
-
-        <div className='radio'>
-          <input
-            type='radio'
-           
-            id={'Poranek'}
-            value={'Poranek'}
-            {...register('time')}
-          />
-          <label htmlFor={'Poranek'}>Poranek</label>
-        </div>
-        <div className='radio'>
-          <input
-            type='radio'
-           
-            id={'Dzień'}
-            value={'Dzień'}
-            {...register('time')}
-          />
-          <label htmlFor={'Dzień'}>Dzień</label>
-        </div>
-        <div className='radio'>
-          <input
-            type='radio'
-           
-            id={'Wieczór'}
-            value={'Wieczór'}
-            {...register('time')}
-          />
-          <label htmlFor={'Wieczór'}>Wieczór</label>
-        </div>
+        <div className='wrapper-row'>
+          <div className='radio'>
+            <input
+              type='radio'
+              id={'Poranek'}
+              value={'Poranek'}
+              {...register('time')}
+            />
+            <label htmlFor={'Poranek'}>Poranek</label>
+          </div>
+          <div className='radio'>
+            <input
+              type='radio'
+              id={'Dzień'}
+              value={'Dzień'}
+              {...register('time')}
+            />
+            <label htmlFor={'Dzień'}>Dzień</label>
+          </div>
+          <div className='radio'>
+            <input
+              type='radio'
+              id={'Wieczór'}
+              value={'Wieczór'}
+              {...register('time')}
+            />
+            <label htmlFor={'Wieczór'}>Wieczór</label>
+          </div>
         </div>
       </div>
       <div className='submit-wrapper'>

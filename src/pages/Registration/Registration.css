@@ -1,13 +1,26 @@
-.registration{
+.registration {
   width: 100%;
-  height:calc(100vh - 80px);
+  height: calc(100vh - 80px);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  padding:  40px;
+  padding: 40px;
 }
-.registration h1{
+
+.registration h1 {
   font-size: 2.5rem;
   font-weight: 900;
+}
+
+@media (max-width:800px) {
+  .registration {
+    padding: 8px;
+  }
+
+  .registration h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+  }
 }

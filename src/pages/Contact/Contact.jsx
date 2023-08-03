@@ -7,7 +7,7 @@ import {
   FaMailBulk,
   FaMapMarkerAlt,
 } from 'react-icons/fa'
-import {GiSteeringWheel} from 'react-icons/gi'
+import { GiSteeringWheel } from 'react-icons/gi'
 import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { FormContact } from '../../components/FormContact/FormContact'
@@ -40,8 +40,8 @@ export const Contact = () => {
         <h1>Kontakt</h1>
         <p>
           Jeśli masz jakiekolwiek pytania lub chciałbyś umówić się na
-          konsultację z jednym z naszych ekspertów ds. nieruchomości, nie wahaj
-          się z nami skontaktować:
+          konsultację z jednym z naszych ekspertów , nie wahaj się z nami
+          skontaktować:
         </p>
         <a
           className={'link'}
@@ -72,9 +72,7 @@ export const Contact = () => {
           to={'/'}
         >
           <div className='logo'>
-         
-            <GiSteeringWheel size={50}/>
-          
+            <GiSteeringWheel size={50} />
           </div>
         </Link>
         <div className='socials'>

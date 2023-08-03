@@ -41,6 +41,7 @@
   position: absolute;
   left: 0;
   top: 70%;
+  border-radius: 5px;
   font-size: 1.2rem;
   line-height: 1.5;
   text-decoration: none;

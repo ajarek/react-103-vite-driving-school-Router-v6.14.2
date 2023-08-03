@@ -1,15 +1,15 @@
-import {useState} from 'react'
+import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import './Registration.css'
-import {FormRegistration} from '../../components/FormRegistration/FormRegistration'
+import { FormRegistration } from '../../components/FormRegistration/FormRegistration'
 import Modal from '../../components/Modal/Modal'
 const Registration = () => {
   const [showModal, setShowModal] = useState(false)
   const [userData, setUserData] = useState([{}])
   const navigate = useNavigate()
-  const handleSubmit=(data)=>{
-    setUserData(data);
-   setShowModal(true)
+  const handleSubmit = (data) => {
+    setUserData(data)
+    setShowModal(true)
   }
   const handleCloseModal = () => {
     setShowModal(false)
@@ -28,7 +28,7 @@ const Registration = () => {
         />
       ) : null}
       <h1>Szczegółowy wniosek o szkolenie</h1>
-      <FormRegistration onSubmit={handleSubmit}/>
+      <FormRegistration onSubmit={handleSubmit} />
     </div>
   )
 }
